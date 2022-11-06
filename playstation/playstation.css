@@ -1,0 +1,146 @@
+.top-header
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    font-size: x-large;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.left-header
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-img
+{
+    height: 40px;
+}
+
+.topic-down
+{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.topics{
+    display: flex;
+    padding-top: 10px;
+}
+
+.header-topics
+{
+    margin-left: 20px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.right-header
+{
+    display: flex;
+    justify-content: end;
+}
+
+.search
+{
+    display: flex;
+    border: 1px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 999px 999px 999px 999px;
+    width: 150px;
+}
+
+.search-input
+{
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 999px 0px 0px 999px;
+    width: 100%;
+}
+
+.icon-div
+{
+  padding: 4px;
+  padding-right: 10px;
+  border-radius: 0px 999px 999px 0px;
+}
+
+.posters{
+    background-image: url('https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/call-of-duty-warzone-mobile-release-window.jpg');
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 160px;
+    padding-bottom: 300px;
+    font-size: larger;
+    color: white;
+}
+
+.posters p{
+    font-weight: bold;
+}
+
+.poster-button
+{
+    margin-top: 20px;
+    color: white;
+    border-radius: 999px 999px 999px 999px;
+    width: fit-content;
+}
+
+.game-list
+{
+    display: flex;
+    margin-top: 30px;
+}
+
+.game-image
+{
+    max-height: 200px;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.ps-display
+{
+    display: flex;
+    margin-top: 30px;
+    height: 500px;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.ps-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.ps-info p
+{
+    font-size: larger;
+}
+
+.ps-img
+{
+   height: 500px;
+   margin-right: 200px;
+}
