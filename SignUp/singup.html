@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <img style="width: 80%;" src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="right-container">
+        <form action="">
+        <input class="text-input" type="text" name="firstName" placeholder="Enter First name">
+        <input class="text-input" type="text" name="surName" placeholder="Enter Sur name">
+        <label for="email">Enter Email Address</label>
+        <input class="text-input" type="email" name="email">
+        <label for="password">Enter Password</label>
+        <input class="text-input" type="password" name="password">
+        <label for="gender">Select Your Gender</label>
+        <input class="gender" type="radio" name="gender"><label class="gender">Male</label>
+        <input class="gender" type="radio" name="gender"><label class="gender">Female</label>
+        <br>
+        <br>
+        <label for="membership" style="margin-bottom: 10px;">Membership Type</label>
+        <select name="membership">
+            <option value="0">Trial</option>
+            <option value="1">Monthly</option>
+            <option value="2">Yearly</option>
+        </select>
+        <input name="check" type="checkbox" class="gender">
+        <label for="check" class="gender">Terms and Conditions</label>
+        </form>
+
+        <button style="margin-top: 30px" class="btn btn-success">Sign Up</button>
+        <br>
+        <hr>
+        <p>or</p>
+        <button class="btn btn-primary">
+            <img src="https://i.pinimg.com/564x/d2/17/4b/d2174bdef984e49aafabeb437744ca7a.jpg" style="width: 20px; margin: 5px; height: 20px;">
+            Sign In With Facebook</button>
+
+           
+            <button class="btn btn-info">
+                <img src=" https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" style="width: 20px; margin: 5px; height: 20px;">
+                Sign In With Google</button>
+    </div>
+    </div>
+</body>
+</html>
