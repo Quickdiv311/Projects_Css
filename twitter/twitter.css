@@ -1,6 +1,6 @@
 body
 {
-    height: 100%;
+    height: 100vw;
 }
 
 .row
@@ -156,6 +156,11 @@ a{
     justify-content: space-between;
     padding: 10px;
     height: 100px;
+}
+
+.news-col-left
+{
+    margin: auto;
 }
 
 .news-col-right
