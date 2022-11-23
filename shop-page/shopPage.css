@@ -94,3 +94,14 @@ body
    padding-top: 10px;
 }
 
+.navbar-collapse
+{
+    justify-content: space-between;
+}
+
+.dropdown-menu
+{
+    margin-bottom: 15px;
+}
+
+
